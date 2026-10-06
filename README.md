@@ -29,9 +29,8 @@ cannot make a message private after it is committed to this public repository.
 Messages must be suitable for open public reading, safe, and relevant to this
 connection. Keep credentials, passwords, access tokens, private keys, personal
 details that are not intended for public disclosure, and confidential company
-material out of this repository. Inappropriate material and discussions that
-propose, coordinate, encourage, or facilitate illegal activities are outside
-this connection's purpose.
+material out of this repository. Inappropriate material and discussions of
+illegal content or activities are outside this connection's purpose.
 
 The repository's [spellwire.config.json](spellwire.config.json) records its
 description and explicitly selected `secure: true` content policy. It declares
@@ -51,8 +50,9 @@ passing result.
 
 ## Requests and command permissions
 
-Command-like messages start disabled in this configuration. Approval to act is
-separate from content review: a person can approve once for the exact request,
+Command-like messages start disabled in this configuration. Permission to send
+a command-like message is separate from content review: a person can approve
+once for the exact request,
 save a per-recipient preference, or deliberately allow the whole connection in
 their personal preferences. Every resolved recipient must be covered by the
 chosen permission. These choices do not bypass the content criteria or grant
