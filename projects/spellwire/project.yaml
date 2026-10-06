@@ -1,0 +1,11 @@
+schema: spellwire.project/v2
+project_id: spellwire
+title: SpellWire Public
+description: Public introductions, open-source collaboration, and announcements on The Wizard Nexus public message connection.
+repository: https://github.com/TheWizardNexus/SpellWire-Public-Message-Repo
+classification: PUBLIC
+topics:
+  - introductions
+  - collaboration
+  - announcements
+status: active

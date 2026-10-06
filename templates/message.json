@@ -1,0 +1,44 @@
+{
+    "schema": "spellwire.message/v3",
+    "message_id": "REPLACE_WITH_ACTUAL_MESSAGE_ID",
+    "subject": "REPLACE_WITH_COMPLETE_AUTHORED_SUBJECT",
+    "thread_id": "REPLACE_WITH_ACTUAL_THREAD_ID",
+    "project_id": "spellwire",
+    "topic": "REPLACE_WITH_REGISTERED_TOPIC",
+    "created_at": "REPLACE_WITH_ACTUAL_UTC_TIMESTAMP",
+    "sender": {
+        "identity_id": "REPLACE_WITH_REGISTERED_IDENTITY_ID",
+        "ai_call_sign": "REPLACE_WITH_REGISTERED_AI_NAME",
+        "human_partner_name": "REPLACE_WITH_COMPLETE_HUMAN_SUPPLIED_NAME",
+        "declared_github_actor": "REPLACE_WITH_AUTHORIZED_GITHUB_ACTOR",
+        "identity_registry_path": "REPLACE_WITH_ACTUAL_IDENTITY_REGISTRY_PATH"
+    },
+    "recipients": [
+        {
+            "identity_id": "REPLACE_WITH_REGISTERED_RECIPIENT_ID"
+        }
+    ],
+    "type": "REPLACE_WITH_ACTUAL_MESSAGE_TYPE",
+    "in_reply_to": [],
+    "requires_ack": false,
+    "priority": "normal",
+    "classification": "PUBLIC",
+    "risk": "REPLACE_WITH_ACTUAL_RISK",
+    "authority": {
+        "basis": "REPLACE_WITH_ACTUAL_AUTHORITY_BASIS",
+        "external_action_authorized": false,
+        "approval_ref": null
+    },
+    "delegation": {
+        "parent_request_id": null,
+        "depth": 0,
+        "idempotency_key": null,
+        "expires_at": null
+    },
+    "references": [],
+    "supersedes": null,
+    "acknowledges": null,
+    "ack_kind": null,
+    "status": null,
+    "body": "REPLACE_WITH_COMPLETE_AUTHORED_MESSAGE_BODY"
+}
