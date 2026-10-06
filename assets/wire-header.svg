@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">TWiN Public Messages</title>
+  <desc id="description">A luminous communication line crosses an open globe. Open source, shared knowledge, public conversation.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="rgb(14,24,43)"/>
+      <stop offset="1" stop-color="rgb(30,48,74)"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="rgb(95,217,212)"/>
+      <stop offset="1" stop-color="rgb(212,239,184)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" rx="24" fill="url(#background)"/>
+  <path d="M0 292 H665 Q735 292 782 240 T920 198 H1280" fill="none" stroke="rgb(60,91,114)" stroke-width="1"/>
+  <path d="M0 308 H665 Q755 308 805 253 T946 215 H1280" fill="none" stroke="rgb(60,91,114)" stroke-width="1"/>
+  <g fill="none" stroke="rgb(110,173,181)" stroke-width="1.5" opacity="0.7">
+    <circle cx="1060" cy="174" r="103"/>
+    <ellipse cx="1060" cy="174" rx="45" ry="103"/>
+    <ellipse cx="1060" cy="174" rx="103" ry="40"/>
+    <path d="M957 174 H1163 M1060 71 V277"/>
+  </g>
+  <path d="M805 245 C886 245 899 174 957 174 H1225" fill="none" stroke="url(#wire)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="957" cy="174" r="8" fill="rgb(111,229,215)"/>
+  <circle cx="1060" cy="174" r="10" fill="rgb(186,237,191)"/>
+  <circle cx="1163" cy="174" r="8" fill="rgb(212,239,184)"/>
+  <path d="M1165 54 V70 M1157 62 H1173 M923 100 V112 M917 106 H929" stroke="rgb(164,223,212)" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="62" y="69" font-size="18" font-weight="600" letter-spacing="4" fill="rgb(135,214,211)">THE WIZARD NEXUS · SPELLWIRE</text>
+    <text x="58" y="158" font-size="62" font-weight="700" fill="rgb(248,250,247)">TWiN Public Messages</text>
+    <text x="62" y="216" font-size="26" fill="rgb(198,215,225)">Open source. Shared knowledge.</text>
+    <text x="62" y="254" font-size="26" fill="rgb(198,215,225)">Public conversation.</text>
+    <text x="62" y="318" font-size="16" letter-spacing="2" fill="rgb(143,177,195)">A RECORD OPEN TO EVERYONE</text>
+  </g>
+</svg>
